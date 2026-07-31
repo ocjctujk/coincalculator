@@ -20,8 +20,8 @@ function calculateTotal() {
   result.innerText = `Total is $ ${total.toFixed(2)}`;
 }
 
-fiveCents.addEventListener("change", calculateTotal);
-tenCents.addEventListener("change", calculateTotal);
-twentyFiveCents.addEventListener("change", calculateTotal);
-looney.addEventListener("change", calculateTotal);
-tooney.addEventListener("change", calculateTotal);
+fiveCents.addEventListener("input", calculateTotal);
+tenCents.addEventListener("input", calculateTotal);
+twentyFiveCents.addEventListener("input", calculateTotal);
+looney.addEventListener("input", calculateTotal);
+tooney.addEventListener("input", calculateTotal);
